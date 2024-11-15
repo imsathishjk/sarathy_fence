@@ -32,7 +32,7 @@ export const Contact = () => {
 
     return (
         <motion.div
-            initial={{ translateX: 200 }} whileInView={{ translateX: 0 }} transition={{ duration: 1 }}
+            initial={{ translateX: 200 }} whileInView={{ translateX: 0 }} transition={{ duration: 1 }} viewport={{once:true}}
             className="py-20 px-4" id="Contact">
             <div className="flex flex-col items-center justify-center">
                 <h1 className="text-center font-semibold font-[Merienda] text-2xl md:text-3xl">Contact <span className="font-[Alata]">Us</span></h1>

@@ -38,22 +38,22 @@ export const SideBar = ({ openSidebar, setOpensidebar, background }) => {
                     <motion.a
                         initial={{ translateY: 20 }} whileInView={{ translateY: 0 }} transition={{
                             duration: 0.3, ease: easeInOut
-                        }}
+                        }} viewport={{once:true}}
                         onClick={() => setOpensidebar(false)} href="#Home" className="cursor-pointer hover:transform hover:-translate-y-2 duration-300"><i className="fa-solid fa-location-arrow text-orange-600"></i> Home</motion.a>
                     <motion.a
                         initial={{ translateY: 40 }} whileInView={{ translateY: 0 }} transition={{
                             duration: 0.3, ease: easeInOut
-                        }}
+                        }} viewport={{once:true}}
                         onClick={() => setOpensidebar(false)} href="#Projects" className="cursor-pointer hover:transform hover:-translate-y-2 duration-300"><i className="fa-solid fa-location-arrow text-orange-600"></i> Projects</motion.a>
                     <motion.a
                         initial={{ translateY: 60 }} whileInView={{ translateY: 0 }} transition={{
                             duration: 0.3, ease: easeInOut
-                        }}
+                        }} viewport={{once:true}}
                         onClick={() => setOpensidebar(false)} href="#About" className="cursor-pointer hover:transform hover:-translate-y-2 duration-300"><i className="fa-solid fa-location-arrow text-orange-600"></i> About Us</motion.a>
                     <motion.a
                         initial={{ translateY: 80 }} whileInView={{ translateY: 0 }} transition={{
                             duration: 0.3, ease: easeInOut
-                        }}
+                        }} viewport={{once:true}}
                         onClick={() => setOpensidebar(false)} href="#Testimonials" className="cursor-pointer hover:transform hover:-translate-y-2 duration-300"><i className="fa-solid fa-location-arrow text-orange-600"></i> Testimonials</motion.a>
                 </ul>
             </div>

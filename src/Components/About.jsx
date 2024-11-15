@@ -4,7 +4,7 @@ export const About = () => {
     return (
         <motion.div className="py-20 px-4" id='About'
         initial={{opacity:0}} whileInView={{opacity:1}}
-        transition={{duration:1}}
+        transition={{duration:1}} viewport={{once:true}}
         >
             <div className="flex flex-col items-center justify-center">
                 <h1 className="text-center font-semibold font-[Merienda] text-2xl md:text-3xl">About <span className="font-[Alata]">Us</span></h1>

@@ -10,7 +10,7 @@ export const Testimonials = () => {
             </div>
             <div className="flex justify-center gap-12 mt-12 flex-wrap">
                 <motion.div 
-                initial={{translateX:-100}} whileInView={{translateX:0}} transition={{ease:"linear", duration:1}}
+                initial={{translateX:-100}} whileInView={{translateX:0}} transition={{ease:"linear", duration:1}} viewport={{once:true}}
                 className="w-[300px] border border-gray-300 shadow-md p-5 rounded-md hover:scale-105 hover:tranfrom transition-all ease-in-out cursor-pointer">
                     <div className="flex flex-col gap-2">
                         <p className="font-[Merienda] text-center text-xl w-8 h-8 bg-orange-600 text-white rounded-md mx-auto">R</p>
@@ -22,7 +22,7 @@ export const Testimonials = () => {
                     </div>
                 </motion.div>
                 <motion.div
-                 initial={{translateY:40}} whileInView={{translateY:0}} transition={{ease:"linear", duration:1}}
+                 initial={{translateY:40}} whileInView={{translateY:0}} transition={{ease:"linear", duration:1}} viewport={{once:true}}
                 className="w-[300px] border border-gray-300 shadow-md p-5 rounded-md hover:scale-105 hover:tranfrom transition-all ease-in-out cursor-pointer">
                     <div className="flex flex-col gap-2">
                         <p className="font-[Merienda] text-center text-xl w-8 h-8 bg-orange-600 text-white rounded-md mx-auto">J</p>
@@ -34,7 +34,7 @@ export const Testimonials = () => {
                     </div>
                 </motion.div>
                 <motion.div
-                 initial={{translateX:100}} whileInView={{translateX:0}} transition={{ease:"linear", duration:1}}
+                 initial={{translateX:100}} whileInView={{translateX:0}} transition={{ease:"linear", duration:1}} viewport={{once:true}}
                 className="w-[300px] border border-gray-300 shadow-md p-5 rounded-md hover:scale-105 hover:tranfrom transition-all ease-in-out cursor-pointer">
                     <div className="flex flex-col gap-2">
                         <p className="font-[Merienda] text-center text-xl w-8 h-8 bg-orange-600 text-white rounded-md mx-auto">A</p>

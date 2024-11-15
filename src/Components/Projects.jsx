@@ -22,7 +22,7 @@ export const Projects = () => {
 
     return (
         <motion.div
-        initial={{ x: 300 }} whileInView={{ x: 0 }} transition={{ duration: 1 }}
+        initial={{ x: 300 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} viewport={{once:true}}
             className="py-20 px-4 md:px-20 lg:px-32" id="Projects">
             <div
                 className="flex flex-col items-center justify-center">
